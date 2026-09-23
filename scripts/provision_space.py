@@ -130,7 +130,6 @@ def main() -> int:
         space_sdk="docker",
         private=PRIVATE_SPACE,
         exist_ok=True,
-        space_hardware="cpu-basic",
     )
     print(f"      -> {url}")
 
